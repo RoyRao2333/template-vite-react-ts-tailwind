@@ -34,6 +34,8 @@ $ pnpm install
 # yarn install
 ```
 
+> Feel free to delete ```.vscode``` or ```.idea``` folder if you use other IDEs.
+
 ## Usage
 
 Let's run!
