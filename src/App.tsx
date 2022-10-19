@@ -28,7 +28,7 @@ function App() {
         <p className="mt-3">
           <button
             type="button"
-            className="my-6 rounded bg-gray-300 px-2 py-2 text-[#282C34] transition-all hover:bg-gray-200"
+            className="btn my-6"
             onClick={() => setCount((count) => count + 1)}
           >
             count is: {count}
