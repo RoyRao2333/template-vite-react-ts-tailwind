@@ -56,8 +56,8 @@ $ pnpm run dev
 
 ## Related Efforts
 
+- [Vite](https://github.com/vitejs/vite)
 - [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
-- [template-vite-react-ts-tailwind-v3](https://github.com/huibizhang/template-vite-react-ts-tailwind-v3)
 
 ## Contributing
 
