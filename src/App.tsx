@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from './assets/images/logo.svg';
-import poweredBy from './assets/images/powered-by-vitawind-bright.png';
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -23,12 +22,12 @@ function App() {
           }
         </style>
         <p className="bg-gradient-to-r from-emerald-300 to-sky-300 bg-clip-text text-5xl font-black text-transparent selection:bg-transparent">
-          Vite + React + Typescript + Tailwindcss v3
+          Vite + React + Typescript + Tailwindcss
         </p>
         <p className="mt-3">
           <button
             type="button"
-            className="btn my-6"
+            className="my-6 rounded bg-gray-300 px-2 py-2 text-[#282C34] transition-all hover:bg-gray-200"
             onClick={() => setCount((count) => count + 1)}
           >
             count is: {count}
@@ -57,10 +56,9 @@ function App() {
             Vite Docs
           </a>
         </p>
-        <img src={poweredBy} className="mx-auto my-8" alt="powered-by" />
       </header>
     </div>
   );
-}
+};
 
 export default App;
