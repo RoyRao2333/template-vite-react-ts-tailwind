@@ -1,4 +1,4 @@
-module.exports = {
+{
   trailingComma: 'all',
   tabWidth: 2,
   printWidth: 80,
@@ -11,6 +11,10 @@ module.exports = {
   jsxBracketSameLine: false,
   endOfLine: 'lf',
   tailwindConfig: './tailwind.config.js',
+  // 对非标准属性进行排序
+  tailwindAttributes: ['wrapperClassName', 'wrapClassName', 'rootClassName'],
+  // 对函数调用中的类进行排序
+  tailwindFunctions: ['classNames', 'classnames', 'twMerge'],
   overrides: [
     {
       files: '.prettierrc',
@@ -19,5 +23,5 @@ module.exports = {
       },
     },
   ],
-  plugins: [require('prettier-plugin-tailwindcss')],
-};
+  plugins: ['prettier-plugin-tailwindcss'],
+}
