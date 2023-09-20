@@ -32,7 +32,7 @@ A starter [Vite](https://vitejs.dev/) template having:
 
 > This project uses [node](http://nodejs.org) and a package manager ([npm](https://npmjs.com), [yarn](https://yarnpkg.com/) or [pnpm](https://pnpm.io/)). Go check them out if you don't have them locally installed.
 
-Then you need a copy of this repository. You can [download](https://github.com/RoyRao2333/template-vite-react-ts-tailwind-v3/archive/refs/heads/main.zip) a copy as zip but [degit](https://github.com/Rich-Harris/degit) is recommended.
+Then you need a copy of this repository. You can [download](https://github.com/RoyRao2333/template-vite-react-ts-tailwind) a copy as zip but [degit](https://github.com/Rich-Harris/degit) is recommended.
 
 After you installed degit, please excute the following commandd:
 
@@ -71,7 +71,7 @@ $ pnpm run dev
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/RoyRao2333/template-vite-react-ts-tailwind-v3/issues/new) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/RoyRao2333/template-vite-react-ts-tailwind) or submit PRs.
 
 ## License
 
