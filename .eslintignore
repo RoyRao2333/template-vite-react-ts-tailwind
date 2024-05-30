@@ -10,4 +10,5 @@
 **/*.md
 build
 
-.eslintrc.js
+.eslintrc.cjs
+eslint.config.js

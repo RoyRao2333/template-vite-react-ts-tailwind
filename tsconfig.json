@@ -1,30 +1,58 @@
 {
   "compilerOptions": {
+    /** 将代码编译为最新版本的 JS */
     "target": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    /** 引入 ES 最新特性和 DOM 接口的类型定义 */
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    /** 使用 ES Module 格式打包编译后的文件 */
     "module": "ESNext",
+    /** 跳过对 .d.ts 文件的类型检查 */
     "skipLibCheck": true,
+    /** 查询的基础路径 */
+    "baseUrl": ".",
+    /** 路径映射,配合别名使用 */
+    "paths": {
+      "@/*": ["src/*"]
+    },
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+
+    /** 使用 Bundler（如 Vite、Webpack）解析模块 */
+    "moduleResolution": "Bundler",
+    /** 允许在模块导入语句中使用Typescript文件的扩展名（.ts） */
     "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
+    /** 不允许使用js */
     "allowJs": false,
+    /** 允许引入 JSON 文件 */
+    "resolveJsonModule": true,
+    /** 要求所有文件都是 ES Module 模块。 */
+    "isolatedModules": true,
+    /** 不输出文件,即编译后不会生成任何js文件 */
+    "noEmit": true,
+    /** 将JSX代码转换为普通的JavaScript代码 */
+    "jsx": "react-jsx",
+    /** 允许使用 import 引入使用 export 导出 */
     "esModuleInterop": true,
 
     /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "forceConsistentCasingInFileNames": true,
 
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    /** 开启所有严格的类型检查 */
+    "strict": true,
+    /** 不允许对同一个文件使用不一致格式的引用 */
+    "forceConsistentCasingInFileNames": true,
+    /** 报告未使用的局部变量的错误 */
+    "noUnusedLocals": true,
+    /** 报告函数中未使用参数的错误 */
+    "noUnusedParameters": true,
+    /** 确保switch语句中的任何非空情况都包含 */
+    "noFallthroughCasesInSwitch": true
   },
-  "include": ["./src"]
+  /** 需要检测的文件 */
+  "include": ["src"],
+  /** 为文件进行不同配置 */
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }

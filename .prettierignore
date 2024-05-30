@@ -3,13 +3,11 @@
 **/*.ejs
 **/*.html
 
-
-/node_modules
-
 /config
 /pnpm-lock.yaml
 /pnpm-workspace.yaml
 build
 dist
+node_modules
 
 .DS_Store
