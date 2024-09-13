@@ -10,11 +10,10 @@
 
 A starter [Vite](https://vitejs.dev/) template having:
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Multiple eslint & prettier plugins installed
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Multiple [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) plugins installed
 
 > [!IMPORTANT]
 > 
@@ -36,15 +35,15 @@ A starter [Vite](https://vitejs.dev/) template having:
 
 ## Install
 
-> This project uses [node](http://nodejs.org) and a package manager ([npm](https://npmjs.com), [yarn](https://yarnpkg.com/) or [pnpm](https://pnpm.io/)). Go check them out if you don't have them locally installed.
+> This project uses [Node](http://nodejs.org) and a package manager ([npm](https://npmjs.com), [yarn](https://yarnpkg.com/) or [pnpm](https://pnpm.io/)). Go check them out if you don't have them locally installed.
 
-Then you need a copy of this repository. You can [download](https://github.com/RoyRao2333/template-vite-react-ts-tailwind) a copy as zip but [degit](https://github.com/Rich-Harris/degit) is recommended.
+Then you need a copy of this repository. You can [download](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/archive/refs/heads/main.zip) a copy as zip but [tiged](https://github.com/tiged/tiged) is recommended.
 
-After you installed degit, please excute the following commands:
+After you installed tiged, please excute the following commands:
 
 ```sh
 $ cd path-to-save-your-project
-$ degit royrao2333/template-vite-react-ts-tailwind your-project-name
+$ tiged royrao2333/template-vite-react-ts-tailwind your-project-name
 ```
 
 After getting a copy of this repository, you can use your package manager to install dependecies:
@@ -68,17 +67,8 @@ $ pnpm run dev
 # yarn run dev
 ```
 
-> We've already implemented some recommended configurations in `.eslintrc.cjs`, `.eslintignore`, `.prettierrc.json5` and `.prettierignore`. Feel free to edit them if you have your own preferences.
-
-## Related Efforts
-
-- [Vite](https://github.com/vitejs/vite)
-- [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
+> We've already implemented some recommended configurations in `eslint.config.js`, `.prettierrc.json5` and `.prettierignore`. Feel free to edit them if you have your own preferences.
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/RoyRao2333/template-vite-react-ts-tailwind) or submit PRs.
-
-## License
-
-[MIT](LICENSE) © Roy Rao
+Feel free to dive in! [Open an issue](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/issues/new) or submit PRs.
