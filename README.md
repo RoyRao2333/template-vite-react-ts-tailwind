@@ -17,15 +17,9 @@ A starter [Vite](https://vitejs.dev/) template having:
 
 > [!IMPORTANT]
 > 
-> The latest code of this template has updated Vite to version 5.0+, which requires [Node.js](https://nodejs.org/) version 18+ or 20+. Please upgrade if your package manager warns about it. Or you can use [this release](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/releases/tag/release-2024.01.15) which is Vite v4.x.
+> The latest code of this template has updated Vite to version 5.0+, which requires [Node.js](https://nodejs.org/) version 18+ or 20+. Please upgrade if your package manager warns about it. Or you can use [this release](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/releases/tag/release-2024.01.15) which is vite@^4.
 > 
-> 该模板的最新代码中，已经将 Vite 的版本更新到了 5.0+，需要 18+ 或 20+ 版本的 [Node.js](https://nodejs.org/)。当你的包管理器发出警告时，请注意升级你的 Node.js 版本。如果你需要 Vite v4.x，请使用[这个版本](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/releases/tag/release-2024.01.15)。
-
-> [!IMPORTANT]
-> 
-> The latest code of this template has updated TypeScript to version 5.0+. If you need TypeScript v4.x, please use [this release](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/releases/tag/release-2023.03.08).
-> 
-> 该模板的最新代码中，已经将 TypeScript 的版本更新到了 5.0+。如果你需要 TypeScript v4.x，请使用[这个版本](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/releases/tag/release-2023.03.08)。
+> 该模板的最新代码中，已经将 Vite 的版本更新到了 5.0+，需要 18+ 或 20+ 版本的 [Node.js](https://nodejs.org/)。当你的包管理器发出警告时，请注意升级你的 Node.js 版本。如果你需要 vite@^4，请使用[这个版本](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/releases/tag/release-2024.01.15)。
 
 > [!TIP]
 > 
@@ -33,11 +27,15 @@ A starter [Vite](https://vitejs.dev/) template having:
 > 
 > 这个代码仓库可能会不定期更新其依赖包的版本。如果最新代码中依赖的版本不符合你的期望，请移步[Tags](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/tags)下载之前的模板。每个Tag中使用的依赖都会展示在Tag详情中，请选择你需要的版本。
 
-## Install
+## Usage
 
-> This project uses [Node](http://nodejs.org) and a package manager ([npm](https://npmjs.com), [yarn](https://yarnpkg.com/) or [pnpm](https://pnpm.io/)). Go check them out if you don't have them locally installed.
+> [!TIP]
+> 
+> The fastest way to use this template is to click the “Use this template” button on the top right of this repository. It will help you create a new repository quickly, and you can make any modifications to your own repository. If you still want to download this template separately, please continue reading.
+> 
+> 使用该模板的最快方式，就是点击本仓库右上角的“使用该模板”按扭。这帮助你使用该模板迅速创建一个新的仓库，然后你可以对自己的仓库进行任何修改。如果你仍然希望单独下载此模板，可继续往下读。
 
-Then you need a copy of this repository. You can [download](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/archive/refs/heads/main.zip) a copy as zip but [tiged](https://github.com/tiged/tiged) is recommended.
+If you need a copy of this repository. You can [download](https://github.com/RoyRao2333/template-vite-react-ts-tailwind/archive/refs/heads/main.zip) a copy as zip but [tiged](https://github.com/tiged/tiged) is recommended.
 
 After you installed tiged, please excute the following commands:
 
@@ -55,8 +53,6 @@ $ pnpm install
 # npm install
 # yarn install
 ```
-
-## Usage
 
 Let's run!
 
